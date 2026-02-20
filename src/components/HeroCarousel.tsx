@@ -29,8 +29,8 @@ function HeroCarousel() {
   }
 
   return (
-    <>
-      <h1 className="r border-bottom "> Novità</h1>
+    <div className="py-5">
+      <h1 className=" border-bottom pb-3 mb-5 fw-bold"> Novità</h1>
       <Carousel
         activeIndex={index}
         onSelect={handleSelect}
@@ -39,9 +39,7 @@ function HeroCarousel() {
       >
         {groupedContent.map((group, i) => (
           <Carousel.Item key={i}>
-            <div
-              style={{ display: "flex", justifyContent: "center", gap: "20px" }}
-            >
+            <div className="d-flex justify-content-center gap-3">
               {group.map((item, j) => (
                 <CarouselItem
                   key={j}
@@ -52,7 +50,7 @@ function HeroCarousel() {
           </Carousel.Item>
         ))}
       </Carousel>
-    </>
+    </div>
   )
 }
 

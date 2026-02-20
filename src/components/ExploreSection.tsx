@@ -14,7 +14,8 @@ const exploreButtonsText = [
 
 const ExploreSection = () => {
   return (
-    <Row className="pt-5 g-3">
+    <Row className="mb-5 pt-5 g-3">
+      <h5>Altro da explorare</h5>
       {exploreButtonsText.map((text) => (
         <Col
           xs={12}

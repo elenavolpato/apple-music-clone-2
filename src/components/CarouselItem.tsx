@@ -8,7 +8,7 @@ const CarouselItem = ({ item }: CarouselItemProps) => {
   return (
     <div>
       <h5 className="text-white-50 fw-bolder">NUOVA STAZIONE RADIO</h5>
-      <h4>{item.text}</h4>
+      <h4 style={{ minHeight: "80px" }}>{item.text}</h4>
       <img
         src={`src/assets/images/${item.img}`}
         alt={item.text || "carousel image"}

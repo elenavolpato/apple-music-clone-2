@@ -1,3 +1,7 @@
+* {
+  font-family: "Inter", sans-serif !important;
+}
+
 .white-logo {
   filter: brightness(0) invert(1);
 }
@@ -11,4 +15,33 @@
 
 .explore-button {
   background-color: #2e2e2e !important;
+}
+
+.player-container {
+  bottom: 10px;
+  left: 30%;
+}
+.player-card {
+  background-color: #2c2c2e;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 520px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.ctrl-btn {
+  color: rgba(255, 255, 255, 0.55) !important;
+  background: none !important;
+  border: none !important;
+  width: 36px;
+  height: 36px;
+  border-radius: 50% !important;
+  transition:
+    color 0.15s,
+    background 0.15s !important;
+}
+.ctrl-btn:hover {
+  color: rgba(255, 255, 255, 0.9) !important;
+  background: rgba(255, 255, 255, 0.08) !important;
 }
