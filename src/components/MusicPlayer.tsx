@@ -6,7 +6,7 @@ export default function MusicPlayer() {
 
   return (
     <>
-      <div className="d-flex align-items-center justify-content-center position-absolute player-container">
+      <div className="d-flex align-items-center justify-content-center position-fixed fixed-bottom ">
         <Card className="player-card border-0">
           <Card.Body className="px-3 py-2">
             <Stack

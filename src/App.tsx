@@ -16,7 +16,7 @@ function App() {
   return (
     <Container
       fluid
-      className="h-100 p-0 position-relative overflow-auto"
+      className="h-100 p-0 overflow-scroll"
     >
       <Row className="flex-nowrap">
         {/*  <Col
